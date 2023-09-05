@@ -1,0 +1,49 @@
+.container-preco{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: antiquewhite;
+    font-family: calibri;
+}
+
+.preco-titulo{
+    font-size: 12px;
+    margin-bottom: 3px;   
+}
+
+.preco-valor{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.preco-console{
+    display: flex;
+    font-size: 12px;
+    
+}
+
+.preco-console >span{
+    font-weight: bold;
+    color: aqua;
+    margin-right: 3px;
+
+}
+
+.preco-real{
+    margin-left: 5px;
+}
+
+.game-preco{
+    font-size: 12px;
+}

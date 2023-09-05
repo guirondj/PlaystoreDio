@@ -1,0 +1,57 @@
+.container-menu{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 0px 6px 0 rgba(0, 0, 0, 0.706);
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-logo{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-items > ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu-items > ul > li{
+    padding: 6px;
+}
+
+.menu-items > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-family: 'segoe UI';
+    padding: 5px;
+}
+
+@media screen and (min-width: 600px ) {
+    .container-menu{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 600px ) {
+    .container-menu{
+        justify-content: space-between;
+    }
+
+    .menu-items > ul{
+        margin-right: 15px;
+    }
+}

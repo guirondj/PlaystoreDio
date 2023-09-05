@@ -1,0 +1,29 @@
+.container-card{
+    position: relative;
+    border: 3px solid #3e4357;
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+
+    display: flex;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.container-card > .card-img{
+    min-width: 100%;
+    min-height: 100%;
+    transition: .8s;
+}
+
+.card-img:hover{
+    transform: scale(1.2) 
+}
+
+@media screen and (min-width: 601px) {
+    .container-card{
+        height: 600px;
+        width: 500px; 
+    }
+    
+}
